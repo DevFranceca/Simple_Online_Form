@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Form</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            /* background-color: rgb(40, 192, 40); */
+            background: linear-gradient(rgb(110, 18, 196), rgb(136, 39, 55));
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .wrap{
+            width: 40%;
+            height: 80%;
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10px;
+           
+        }
+        .login{
+            width: 100%;
+            height: 20%;
+            /* background-color: aqua; */
+            font-size: 25px;
+            border: none;
+            border-bottom: 1px solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .up{
+            width: 100%;
+            height: 30%;
+            /* background-color: blue; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            /* margin-top: 35px; */
+        }
+       input{
+        height: 90%;
+        width: 80%;
+        outline: none;
+        border: none;
+        border-bottom: 3px solid gray;
+        padding: 8px;
+       }
+
+       .button{
+            width: 100%;
+            height: 12%;
+            /* background-color: antiquewhite; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button button{
+            width: 80%;
+            height: 100%;
+            background-color: rgb(241, 229, 229);
+            border: 1px solid black;
+            border-radius: 50px;
+            padding: 15px 35px;
+            color: black;
+            font-weight: bold;
+            font-size: 1em;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .passWord{
+            width: 100%;
+            height: 10%;
+            /* background-color: red; */
+            display: flex;
+            align-items: center;
+            margin-left: 85px;
+        }
+
+        
+        .down{
+            width: 100%;
+            height: 10%;
+            /* background-color: blueviolet; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0;
+            /* margin-top: 25px; */
+        }
+        .down p{
+            font-size: 1em;
+            color: grey;
+        }
+        .green{
+            font-size: 1em;
+            color: green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+        <div class="wrap">
+            <div class="login">
+                <h1>Login</h1>
+            </div>
+            <div class="up">
+                <input type="" placeholder="Username">
+                <input type="" placeholder="Password">
+               
+            </div> 
+            <div class="passWord">
+                <p>Forgot Password?</p>
+            </div> 
+            <div class="button">
+                <button>Login</button>
+            </div>    
+                <div class="down">
+                    <P>Not a Member ?</P>
+                    <p class="green" style="color: turquoise;">Signup</p>
+                </div>
+        </div>
+</body>
+</html>
